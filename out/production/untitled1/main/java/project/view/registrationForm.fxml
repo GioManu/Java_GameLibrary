@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="360.0" prefWidth="626.0" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <TextField fx:id="reg_pwd" layoutX="44.0" layoutY="115.0" />
+      <TextField fx:id="reg_username" layoutX="44.0" layoutY="60.0" />
+      <TextField fx:id="reg_mail" layoutX="43.0" layoutY="234.0" prefHeight="31.0" prefWidth="186.0" />
+      <TextField fx:id="reg_confpwd" layoutX="44.0" layoutY="174.0" />
+      <Button fx:id="btn_reg" layoutX="43.0" layoutY="306.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="186.0" text="Register" />
+      <Label layoutX="45.0" layoutY="34.0" text="Username" />
+      <Label layoutX="45.0" layoutY="94.0" text="Password" />
+      <Label layoutX="44.0" layoutY="213.0" text="eMail" />
+      <Label layoutX="45.0" layoutY="153.0" text="Confirm Password" />
+      <Hyperlink fx:id="img_pwd" layoutX="320.0" layoutY="313.0" prefHeight="31.0" prefWidth="228.0" text="I need graphical password authentication" textAlignment="CENTER">
+         <font>
+            <Font size="12.0" />
+         </font>
+      </Hyperlink>
+      <Circle fx:id="err_email_circ" fill="#ff1f1f" layoutX="247.0" layoutY="250.0" radius="6.0" stroke="RED" strokeType="INSIDE" visible="false" />
+      <Circle fx:id="err_pwd_conf_circ" fill="#ff1f1f" layoutX="247.0" layoutY="190.0" radius="6.0" stroke="RED" strokeType="INSIDE" visible="false" />
+      <Circle fx:id="err_pwd_circ" fill="#ff1f1f" layoutX="247.0" layoutY="131.0" radius="6.0" stroke="RED" strokeType="INSIDE" visible="false" />
+      <Circle fx:id="err_username_circ" fill="#ff1f1f" layoutX="247.0" layoutY="76.0" radius="6.0" stroke="RED" strokeType="INSIDE" visible="false" />
+      <Label fx:id="err_wrong_email" layoutX="261.0" layoutY="239.0" text="wrong email" textFill="RED" visible="false" />
+      <Label fx:id="err_username" layoutX="261.0" layoutY="66.0" text="username lenght must be at least 4 characters" textFill="RED" visible="false" />
+      <Label fx:id="err_pwd" layoutX="261.0" layoutY="121.0" text="password length must be at least 4 characters" textFill="RED" visible="false" />
+      <Label fx:id="err_pwd_match" layoutX="261.0" layoutY="180.0" text="passwords not match" textFill="RED" visible="false" />
+   </children>
+</Pane>

@@ -1,0 +1,32 @@
+2019-06-02 22:39:56 INFO  Version:37 - HHH000412: Hibernate Core {5.1.3.Final}
+2019-06-02 22:39:56 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2019-06-02 22:39:56 INFO  Environment:317 - HHH000021: Bytecode provider name : javassist
+2019-06-02 22:39:56 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-06-02 22:39:56 WARN  pooling:71 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-06-02 22:39:56 INFO  pooling:127 - HHH10001005: using driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] at URL [jdbc:sqlserver://localhost:1433;databaseName=JAVAPROJECT;integratedSecurity=true]
+2019-06-02 22:39:56 INFO  pooling:136 - HHH10001001: Connection properties: {user=DESKTOP-89A4SL1\Manu}
+2019-06-02 22:39:56 INFO  pooling:141 - HHH10001003: Autocommit mode: false
+2019-06-02 22:39:56 INFO  DriverManagerConnectionProviderImpl:39 - HHH000115: Hibernate connection pool size: 1 (min=1)
+2019-06-02 22:39:57 INFO  Dialect:156 - HHH000400: Using dialect: org.hibernate.dialect.SQLServerDialect
+2019-06-02 22:39:57 INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2019-06-02 22:39:57 INFO  LoginFormController:72 - wrong password or username
+2019-06-02 22:45:33 INFO  Version:37 - HHH000412: Hibernate Core {5.1.3.Final}
+2019-06-02 22:45:33 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2019-06-02 22:45:33 INFO  Environment:317 - HHH000021: Bytecode provider name : javassist
+2019-06-02 22:45:33 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-06-02 22:45:33 WARN  pooling:71 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-06-02 22:45:33 INFO  pooling:127 - HHH10001005: using driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] at URL [jdbc:sqlserver://localhost:1433;databaseName=JAVAPROJECT;integratedSecurity=true]
+2019-06-02 22:45:33 INFO  pooling:136 - HHH10001001: Connection properties: {user=DESKTOP-89A4SL1\Manu}
+2019-06-02 22:45:33 INFO  pooling:141 - HHH10001003: Autocommit mode: false
+2019-06-02 22:45:33 INFO  DriverManagerConnectionProviderImpl:39 - HHH000115: Hibernate connection pool size: 1 (min=1)
+2019-06-02 22:45:34 INFO  Dialect:156 - HHH000400: Using dialect: org.hibernate.dialect.SQLServerDialect
+2019-06-02 22:45:34 INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2019-06-02 22:45:34 INFO  LoginFormController:70 - User Loged In
+2019-06-02 22:45:42 WARN  pooling:71 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-06-02 22:45:42 INFO  pooling:127 - HHH10001005: using driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] at URL [jdbc:sqlserver://localhost:1433;databaseName=JAVAPROJECT;integratedSecurity=true]
+2019-06-02 22:45:42 INFO  pooling:136 - HHH10001001: Connection properties: {user=DESKTOP-89A4SL1\Manu}
+2019-06-02 22:45:42 INFO  pooling:141 - HHH10001003: Autocommit mode: false
+2019-06-02 22:45:42 INFO  DriverManagerConnectionProviderImpl:39 - HHH000115: Hibernate connection pool size: 1 (min=1)
+2019-06-02 22:45:42 INFO  Dialect:156 - HHH000400: Using dialect: org.hibernate.dialect.SQLServerDialect
+2019-06-02 22:45:42 INFO  LibService:14 - GAME REGISTERED ID 3 
+2019-06-02 22:45:42 INFO  AddGameController:99 - Game Registered
